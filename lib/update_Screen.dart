@@ -115,7 +115,7 @@ class _UserProfileFormState extends State<UserProfileForm> {
                       _phoneController.text,
                       _genderController.text);
                   setState(() {});
-                  Navigator.push(context, MaterialPageRoute(builder: (c)=>AllUpdated()));
+
                   if (_formKey.currentState!.validate()) {
                     // TODO: handle form submission
                   }
